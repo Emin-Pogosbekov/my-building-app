@@ -18,6 +18,9 @@ module.exports = {
       width: {
         app500: "500px",
       },
+      lineHeight: {
+        12: '3.75rem'
+      }
     },
   },
   plugins: [],
