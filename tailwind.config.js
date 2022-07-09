@@ -17,6 +17,8 @@ module.exports = {
       },
       width: {
         app500: "500px",
+        app1000: "1000px",
+        app2000: "2000px"
       },
       lineHeight: {
         12: '3.75rem'

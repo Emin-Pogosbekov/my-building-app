@@ -6,3 +6,4 @@ export {default as Button} from './serving/Button'
 
 export {default as MainScreen} from './layouts/MainScreen'
 export {default as StandardScreen} from './layouts/StandardScreen'
+export {default as Slider} from './layouts/Slider'
