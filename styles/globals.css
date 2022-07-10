@@ -7,3 +7,11 @@
 body {
   font-family: Montserrat, sans-serif;
 }
+
+#swiper-color .swiper-button-next {
+  color: #00df9a;
+}
+
+#swiper-color .swiper-button-prev {
+  color: #00df9a;
+}
