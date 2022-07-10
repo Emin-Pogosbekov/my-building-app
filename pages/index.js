@@ -1,4 +1,4 @@
-import {MainScreen, StandardScreen, Slider} from '../components'
+import {MainScreen, StandardScreen, Slider, VideoBlock} from '../components'
 
 
 export default function HomePage() {
@@ -8,6 +8,7 @@ export default function HomePage() {
       <StandardScreen />
       <StandardScreen bgColor='dark' reversed={true} />
       <Slider />
+      <VideoBlock />
     </div>
   )
 }
