@@ -14,10 +14,12 @@ module.exports = {
         appMint: "#00df9a"
       },
       height: {
+        app430: "430px",
         app500: "500px",
         app700: "700px"
       },
       width: {
+        app350: "350px",
         app500: "500px",
         app1000: "1000px",
         app2000: "2000px"

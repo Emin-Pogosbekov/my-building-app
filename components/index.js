@@ -3,6 +3,7 @@ export {default as Subtitle} from './serving/Subtitle'
 export {default as Paragraph} from './serving/Paragraph'
 export {default as Button} from './serving/Button'
 export {default as BigSubtitle} from './serving/BigSubtitle'
+export {default as Tabs} from './serving/Tabs'
 
 
 export {default as MainScreen} from './layouts/MainScreen'
