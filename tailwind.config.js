@@ -11,7 +11,9 @@ module.exports = {
         appDark: "#0f0f0f",
         appHighlight: "#181818",
         appLightText: "#8a8f98",
-        appMint: "#00df9a"
+        appMint: "#00df9a",
+        appGreen: "#7AC943",
+        appGrayAccordion: "#14151A"
       },
       height: {
         app430: "430px",

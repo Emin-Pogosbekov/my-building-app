@@ -1,4 +1,4 @@
-import {MainScreen, StandardScreen, Slider, Quiz, VideoBlock, Tabs} from '../components'
+import {MainScreen, StandardScreen, Slider, Quiz, VideoBlock, Tabs, Accordion} from '../components'
 
 
 export default function HomePage() {
@@ -20,7 +20,9 @@ export default function HomePage() {
         reversed={true}
         subtitleText='Индивидуальный подход, отражающийся в деталях'
         paragraphText='Мы умеем работать с самой требовательной аудиторией и готовы реализовать самые изысканные идеи'
-      />
+      >
+        <Accordion />
+      </StandardScreen>
       <Slider />
       <VideoBlock />
       <Quiz />

@@ -4,6 +4,7 @@ export {default as Paragraph} from './serving/Paragraph'
 export {default as Button} from './serving/Button'
 export {default as BigSubtitle} from './serving/BigSubtitle'
 export {default as Tabs} from './serving/Tabs'
+export {default as Accordion} from './serving/Accordion'
 
 
 export {default as MainScreen} from './layouts/MainScreen'
