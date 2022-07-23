@@ -13,7 +13,8 @@ module.exports = {
         appLightText: "#8a8f98",
         appMint: "#00df9a",
         appGreen: "#7AC943",
-        appGrayAccordion: "#14151A"
+        appGrayAccordion: "#14151A",
+        appBlocks: "#1C1D21"
       },
       height: {
         app430: "430px",
@@ -31,6 +32,9 @@ module.exports = {
       },
       dropShadow: {
         '4xl': '0px 5px 7px rgba(5, 5, 5, .85)'
+      },
+      gap: {
+        'app1': '1px'
       }
     },
   },

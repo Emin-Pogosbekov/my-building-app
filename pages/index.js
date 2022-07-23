@@ -1,4 +1,4 @@
-import {MainScreen, StandardScreen, Slider, Quiz, VideoBlock, Tabs, Accordion} from '../components'
+import {MainScreen, StandardScreen, Slider, Quiz, VideoBlock, Tabs, Accordion, DoubleBlocks} from '../components'
 
 
 export default function HomePage() {
@@ -26,6 +26,13 @@ export default function HomePage() {
       <Slider />
       <VideoBlock />
       <Quiz />
+      <DoubleBlocks bgColor='dark' subtitleText='This is a subtitle text' paragraphText='Lorem ipsum dolor some info more' />
+      <StandardScreen
+        subtitleText='Честная работа - залог доверия'
+        paragraphText='Выполняя все самые важные работы на объекте своими силами, мы получаем полный контроль над финальным результатом'
+      >
+        <h3>Ok let's go</h3>
+      </StandardScreen>
     </div>
   )
 }
