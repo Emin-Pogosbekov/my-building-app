@@ -5,6 +5,7 @@ export {default as Button} from './serving/Button'
 export {default as BigSubtitle} from './serving/BigSubtitle'
 export {default as Tabs} from './serving/Tabs'
 export {default as Accordion} from './serving/Accordion'
+export {default as IconTextComponent} from './serving/IconTextComponent'
 
 
 export {default as MainScreen} from './layouts/MainScreen'
@@ -13,3 +14,4 @@ export {default as Slider} from './layouts/Slider'
 export {default as VideoBlock} from './layouts/VideoBlock'
 export {default as Quiz} from './layouts/Quiz'
 export {default as DoubleBlocks} from './layouts/DoubleBlocks'
+export {default as MyForm} from './layouts/MyForm'
