@@ -1,9 +1,10 @@
-import React, {useRef} from 'react'
+import React, {useRef, useState} from 'react'
 import {BigSubtitle, Paragraph, Button} from '../'
 import emailjs from '@emailjs/browser'
 
 
 export default function MyForm() {
+  const [sendFormResult, setSendFormResult] = useState(null)
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault();
@@ -11,6 +12,10 @@ export default function MyForm() {
     emailjs.sendForm('service_m0ovipq', 'template_aqg2p5a', form.current, 'fKuNt0RVnnVHA3eI_')
       .then((result) => {
           console.log(result.text);
+          if (result.text === 'OK') {
+            setSendFormResult(true)
+            setTimeout(() => setSendFormResult(null), 3000)
+          }
       }, (error) => {
           console.log(error.text);
       });
@@ -29,8 +34,8 @@ export default function MyForm() {
           className='md:w-full px-2 py-4 bg-transparent text-white font-xl focus:outline-none'
         />
         <button
-          className='md:w-48 md:shrink-0 h-12 bg-appMint font-medium text-black rounded'>
-            Отправить
+          className={`md:w-48 md:shrink-0 h-12 ${sendFormResult ? 'bg-appDarkest text-white' : 'bg-appMint text-black'} font-medium rounded`}>
+            { sendFormResult ? 'Заявка отправлена' : 'Отправить' }
         </button>
       </form>
     </section>

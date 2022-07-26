@@ -19,6 +19,7 @@ module.exports = {
       height: {
         app430: "430px",
         app500: "500px",
+        app600: "600px",
         app700: "700px"
       },
       width: {
