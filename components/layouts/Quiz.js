@@ -57,7 +57,7 @@ export default function Quiz() {
       </div>
       <div className='w-full px-4 pb-24'>
         <div className='container mx-auto max-w-5xl rounded-3xl px-4 pt-4 bg-gradient-to-r from-purple-500 to-pink-500'>
-          <div className='flex flex-col w-full px-4  bg-appHighlight rounded-t-2xl h-app600'>
+          <div className='flex flex-col w-full px-4 md:px-24 md:pt-10 bg-appHighlight rounded-t-2xl h-app600'>
             <div className={`${quizPage > 1 ? 'hidden' : 'flex'} flex-col`}>
               <h2 className='text-xl text-zinc-50 font-bold py-12'>Выберите тип объекта, который планируется отремонтировать</h2>
               <label>
