@@ -11,7 +11,8 @@ export default function MyForm() {
 
     emailjs.sendForm('service_m0ovipq', 'template_aqg2p5a', form.current, 'fKuNt0RVnnVHA3eI_')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
+          console.log(form.current)
           if (result.text === 'OK') {
             setSendFormResult(true)
             setTimeout(() => setSendFormResult(null), 3000)

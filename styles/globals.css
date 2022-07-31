@@ -18,3 +18,33 @@ body {
 #swiper-color .swiper-button-prev {
   color: #00df9a;
 }
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  background-color: '#050505';
+  border: 'none';
+  border-radius: '20px';
+  padding: '0';
+}
+
+@media screen and (min-width: 640px) {
+  .Modal {
+    display: flex;
+    height: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Modal {
+    display: flex;
+    height: 40%;
+    width: 50%;
+  }
+}
